@@ -63,7 +63,7 @@ function App() {
   };
 
   const calculateTransactionHash = (tx) => {
-    // This is a simplified hash function. In a real application, use a proper cryptographic hash function.
+    //  a proper cryptographic hash function  SHA256 function from crypto-js ill add later
     //const crypto = require('crypto');
      // const calculateTransactionHash = (tx) => {
    // return crypto.createHash('sha256').update(JSON.stringify(tx)).digest('hex');
